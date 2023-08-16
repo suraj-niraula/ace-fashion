@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- BoxIcons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>The ACE Fashion</title>
+  </head>
+  <body>
+    <header>
+      <!-- Logo -->
+      <img class="logo" src="logo/ace-logo.png" alt="" />
+      <!-- nav menu -->
+      <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Docs</a></li>
+      </ul>
+      <div class="nav-icons">
+        <a href="#"><i class="bx bx-search"></i></a>
+        <a href="#"><i class="bx bx-user"></i></a>
+        <a class="cart" href="checkout.html">
+          <i class="bx bx-cart"></i>
+          <div class="cart-quantity js-cart-quantity">0</div>
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+    <section class="main-home">
+      <div class="main-outline">
+        <h5>Latest Collection</h5>
+        <h1>Shop Our <br />Trendy Collection</h1>
+        <p>Never Go Out of Style</p>
+        <a href="shopping-page.html"
+          ><button class="shop-now-btn">Shop Now &rarr;</button></a
+        >
+      </div>
+      <div class="navg-arrow">
+        <a class="navg" href="#trending"
+          ><i class="bx bx-down-arrow-alt"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- trending-products-section -->
+    <section class="trending-collection" id="trending">
+      <div class="center-text">
+        <h2>Update Your Wardrobe With These Styles</h2>
+      </div>
+      <div class="collections js-collections"></div>
+    </section>
+
+    <!-- customer-review-section -->
+    <section class="customer-review">
+      <div class="reviews">
+        <h3>Customer Reviews</h3>
+        <img src="customer-review/guy-1.webp" alt="" />
+        <p>
+          ACE Fashion is really a place to wander around and find something to
+          spoil yourself with. Recently bought a dress with them and was very
+          pleased with the quality and fit. Amazing quailty and fantastic prices
+          on everything and anything you can think of!!
+        </p>
+        <div class="rating">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star-half"></i>
+        </div>
+        <h2>Emma Wayne</h2>
+        <p>Customer</p>
+      </div>
+    </section>
+
+    <!-- Focus Section -->
+    <section class="focus-section">
+      <div class="center-text">
+        <h2>In Focus</h2>
+      </div>
+      <div class="focus-grid">
+        <div class="in-focus">
+          <img src="in-focus/img-1.webp" alt="" />
+          <p>4 June 2023</p>
+          <h4>DOUBLE FACE SCARF !!</h4>
+          <p>
+            This essential accessory complements any outfit. It can be worn many
+            ways - around your neck, as a top, at the waist or as a headscarf!
+          </p>
+          <a href="#"><h5>Continue Reading...</h5></a>
+        </div>
+        <div class="in-focus">
+          <img src="in-focus/img-2.jpg" alt="" />
+          <p>12 June 2023</p>
+          <h4>PRINTED MIDI DRESS !!</h4>
+          <p>
+            New for Fall 2023, Signature Collared dress with long sleeves.
+            Ruffled hemcombines modernity with timeless elegance.
+          </p>
+          <a href="#"><h5>Continue Reading...</h5></a>
+        </div>
+        <div class="in-focus">
+          <img src="in-focus/img-3.avif" alt="" />
+          <p>23 June 2023</p>
+          <h4>KNIT COTTON BLEND POLO DRESS !!</h4>
+          <p>
+            Incorporating original design elements into new collections this
+            essential design of this polo shirt is enriched with lamé accents,
+            resulting in a classic yet refined style.
+          </p>
+          <a href="#"><h5>Continue Reading...</h5></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact">
+      <div class="contact-info">
+        <div class="basic-info">
+          <img class="logo-1" src="logo/ace-logo.png" alt="" />
+          <p>
+            84 Noalimba Avenue <br />
+            Hanging Rock, New South Wales 2340
+          </p>
+          <p>(02) 6794 1187</p>
+          <p>someone@gmail.com</p>
+          <div class="social-icons">
+            <a href=""> <i class="bx bxl-facebook"></i></a>
+            <a href=""><i class="bx bxl-twitter"></i></a>
+            <a href=""><i class="bx bxl-instagram"></i></a>
+            <a href=""> <i class="bx bxl-youtube"></i></a>
+          </div>
+        </div>
+        <div class="support">
+          <h5>SUPPORT</h5>
+          <a href="#"><p>Contact Us</p></a>
+          <a href="#"><p>Payment Options</p></a>
+          <a href="#"><p>Size Guide</p></a>
+          <a href="#"><p>Shipping & Returns</p></a>
+          <a href="#"><p>FAQs</p></a>
+        </div>
+        <div class="shop">
+          <h5>SHOP</h5>
+          <a href="#"><p>Mens Shopping</p></a>
+          <a href="#"><p>Women's Shopping</p></a>
+          <a href="#"><p>Kid's Shopping</p></a>
+          <a href="#"><p>Bags & Accessories</p></a>
+          <a href="#"><p>Gifts</p></a>
+        </div>
+        <div class="information">
+          <h5>INFORMATION</h5>
+          <a href="#"><p>About Us</p></a>
+          <a href="#"><p>Careers</p></a>
+          <a href="#"><p>Privacy & Security</p></a>
+          <a href="#"><p>Terms & Conditions</p></a>
+          <a href="#"><p>Social Responsibility & Sustainability</p></a>
+        </div>
+        <div class="subscribe">
+          <h5>SUBSCRIBE</h5>
+          <a href="#"><p>Receive Updates, Hot Deals & Discounts</p></a>
+          <a href="#"><p>Newsletter</p></a>
+          <a href="#"><p>Christmas Club</p></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="end">
+      <p>
+        &#169;2023 The Ace Fashion | All rights reserved. Designed by Suraj
+        Niraula
+      </p>
+    </footer>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
